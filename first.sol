@@ -35,8 +35,8 @@ contract SimpleContract {
     }
 
     // Set the value of the string variable
-    function setName(string memory _name) public {
-        name = _name;
+    function setName(string memory std_name) public {
+        name = std_name;
     }
 
     // Get the value of the string variable
@@ -45,8 +45,8 @@ contract SimpleContract {
     }
 
     // Set the value of the address variable
-    function setOwner(address _owner) public {
-        add_owner = _owner;
+    function setOwner(address owner) public {
+        add_owner = owner;
     }
 
     // Get the value of the address variable
