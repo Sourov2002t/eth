@@ -14,11 +14,11 @@
     
 */
 
-// SPDX-License-Identifier: MIT
+    // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.9;
+    pragma solidity ^0.8.9;
 
-contract MyToken {
+    contract MyToken {
 
     // public variables here
     string public Token_name="Bitcoin Cash";
@@ -49,4 +49,4 @@ contract MyToken {
         balances[msg.sender]-=amount;
     }
 
-}
+    }
